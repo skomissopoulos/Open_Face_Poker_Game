@@ -1,0 +1,33 @@
+# Open_Face_Poker_Game
+# Created by Sotiri Komissopoulos
+
+This program, written in Python, allows users to play Open Face Chinese Poker with 2-4 players on a single computer. To learn the rules of the real card game, please visit http://www.pokernews.com/poker-rules/chinese-poker.htm.
+
+To run the program, ensure that OFC_Game_graphics.py and card_images.png are in the same directory and then allow OFC_Game_graphics.py to be executed by writing
+$ chmod u+x OFC_Game_graphics.py
+in the command line. Then write
+$ ./OFC_Game_graphics.py
+in the command line.
+
+A Tk() window will appear to accompany the Terminal-based parts of the game. While most information can be found on the Tk() window, some parts of the program require use of the Terminal, such as entering the number of players and their respective names.
+
+To begin, follow the prompts on the Terminal and enter the number of players, followed by each of their names. The game will start and the current player's name will be noted at the top of the Tk() window. The current player may place the cards they are dealt into any of their hands (front, middle, back, in order from top to bottom on the screen) by first clicking  the card they wish to move once and then clicking the place in their hands they would like to put the card once. The card will move to that position. All cards can be moved anyh number of times until the end of the turn. Once the current player is satsified with the placement of the cards, they may press the End Turn button at the bottom of the Tk() window. If all the dealt cards have been placed when the End Turn button is pressed, the next player's turn begins.
+
+Play continues in this fashion until all the players have placed all 13 of their cards for the round. At this point, the game will score the round and display the scores at the top of the Tk() window and wait for any key to be pressed by the user. When a key is pressed, the game will continue to the next round if there are still rounds to be played or display the winner of the game if there are no more rounds to be played.
+
+At any point, the user may press the New Game button to begin an entirely new game.
+
+
+
+List of Known Bugs:
+- If a new game has been started, it may be impossible to terminate the program without closing the Terminal entirely.
+
+List of Features to Add:
+- Pinapple and FantasyLand variations
+- Make it so cards follow mouse while they are being moved
+- Server-client interactions
+- AI
+
+
+
+If you encounter any more bugs, please let me know. I hope you enjoy playing the game!
